@@ -25,15 +25,10 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "incremental": true,
-    "types": [
-      "node",
-      "react/next",
-      "react-dom/next"
-    ],
     "paths": {
       "@/*": [
         "src/*"
-      ]
+      ],
     }
   },
   "include": [
@@ -45,9 +40,5 @@
     // "./**/*.tsx",
     // "./src",
     // "./src/**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    "./node_modules"
   ]
 }
